@@ -1,1 +1,1 @@
-Tempel URL deployment Streamlit Anda di sini setelah berhasil deploy.
+https://beijing-air-quality-analytics.streamlit.app/
