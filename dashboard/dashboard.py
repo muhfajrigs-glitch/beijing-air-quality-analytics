@@ -126,7 +126,7 @@ with tab2:
     fig_station = px.bar(by_station, x="Rata-rata PM2.5", y="station", orientation="h", color="Penanda", color_discrete_map={"Tertinggi": HIGHLIGHT_RED, "Lainnya": NEUTRAL_BLUE}, text=by_station["Rata-rata PM2.5"].round(2))
     fig_station.update_layout(yaxis={"categoryorder": "array", "categoryarray": by_station["station"].iloc[::-1].tolist()}, xaxis_title="Rata-rata PM2.5 (µg/m³)", yaxis_title="Stasiun", xaxis=dict(rangemode="tozero"), legend_title_text="Penekanan visual")
     fig_station.update_traces(textposition="outside", cliponaxis=False)
-    st.plotly_chart(fig_station, use_container_width=True)
+    st.plotly_chart(fig_station, use_container_width="stretch")
     st.caption("**Makna warna:** merah menyoroti stasiun dengan rata-rata PM2.5 tertinggi pada filter aktif; abu-abu kebiruan menunjukkan stasiun lainnya. Semua batang dimulai dari nol.")
     if len(by_station) > 1:
         gap = by_station.iloc[0]["Rata-rata PM2.5"] - by_station.iloc[-1]["Rata-rata PM2.5"]
