@@ -15,6 +15,23 @@ Dashboard interaktif untuk eksplorasi PM2.5 pada 12 stasiun pemantauan Beijing (
 
 1. Buka terminal di folder ini.
 2. Buat virtual environment (opsional): `python -m venv .venv`.
+
+Cara Mengaktifkan Environment:
+**Windows — PowerShell**
+
+    ```powershell
+    .\.venv\Scripts\Activate.ps1
+    ```
+
+    **Linux / macOS — Bash atau Zsh**
+
+    ```bash
+    source .venv/bin/activate
+    ```
+
+    Jika virtual environment berhasil diaktifkan, biasanya nama
+    environment `(.venv)` akan muncul di awal baris terminal.
+
 3. Aktifkan environment sesuai sistem operasi.
 4. Jalankan `pip install -r requirements.txt`.
 5. Jalankan `streamlit run dashboard/dashboard.py`.
