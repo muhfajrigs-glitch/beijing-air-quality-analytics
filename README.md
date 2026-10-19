@@ -52,10 +52,6 @@ Dataset digabung dari 12 CSV sumber; `datetime` dibentuk dari `year`, `month`, `
 
 Sumber: Beijing Multi-Site Air Quality Dataset. Dataset mentah disertakan sebagai `data/Air-quality-dataset.zip`. Data bersih berada di `dashboard/air_quality_clean.csv`.
 
-## Catatan submission
-
-`Proyek_Analisis_Data.ipynb` di paket ini adalah **template awal yang diunggah**, bukan notebook analisis final yang telah dieksekusi. Ganti dengan notebook final Anda yang sudah berisi kode, Markdown, dan output seluruh tahap sebelum mengumpulkan submission.
-
 ## 🌐 Live Dashboard
 
 Dashboard Beijing Air Quality Analytics telah
